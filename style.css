@@ -164,6 +164,7 @@ p {
  font-style: normal;
  font-weight: 400;
  font-size: 16px;
+ line-height: 0px;
  text-decoration: none;
  color: white;
 }
@@ -171,6 +172,7 @@ p {
 .fa-brands {
  padding-right: 8px;
  font-size: 16px;
+  line-height: 0px;
  align-content: center;
 }
 
@@ -178,12 +180,13 @@ p {
  background-color: #114A9E;
 }
 
-a {
+.link {
  padding-left: 24px;
  font-family: roboto, sans-serif;
  font-style: normal;
  font-weight: 400;
  font-size: 16px;
+ line-height: 0px;
  color: #2B65BC;
  padding-left: 16px;
  cursor: pointer;
@@ -211,7 +214,6 @@ img {
   padding-left: 32px;
   padding-bottom: 12px;
   min-width: 280px;
-  /* text-align: center; */
   background-color: #ECF4F8;
  }
 
@@ -239,4 +241,5 @@ img {
 
 .btn {
  padding-top:8px;
+}
 }

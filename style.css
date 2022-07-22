@@ -79,12 +79,13 @@ body {
 }
 
 li {
- margin-left: 32px;
- font-family: roboto, sans-serif;
- font-style: normal;
- font-weight: 200;
- font-size: 16px;
- line-height: 24px;
+margin: auto;
+font-family: roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #031636;
 }
 
 img {
@@ -108,46 +109,39 @@ img {
 h1 {
  margin: auto;
  font-family: roboto, sans-serif;
- font-style: normal;
  font-weight: 900;
- font-size: 60px;
- line-height: 68px;
+ font-size: 80px;
+ line-height: 94px;
+ color: #031636;
 }
 
 h2 {
  margin: auto;
  font-family: roboto, sans-serif;
- font-style: normal;
- font-weight: 400;
+ font-weight: 800;
  font-size: 32px;
  line-height: 38px;
+ color: #031636;
 }
 
 h3 {
  margin: auto;
  font-family: roboto, sans-serif;
  font-style: normal;
- font-weight: 900;
- font-size: 32px;
- line-height: 38px;
-}
-
-h4 {
- margin: auto;
- font-family: roboto, sans-serif;
- font-style: normal;
- font-weight: 400;
+ font-weight: 600;
  font-size: 24px;
  line-height: 28px;
+ color: #031636;
 }
 
 p {
  margin: auto;
  font-family: roboto, sans-serif;
  font-style: normal;
- font-weight: 200;
+ font-weight: 400;
  font-size: 16px;
- line-height: 24px;;
+ line-height: 24px;
+ color: #031636;
 }
 
 .btn {
@@ -169,6 +163,10 @@ p {
  color: white;
 }
 
+.fa-arrow-up-right-from-square {
+   padding-left: 8px;
+}
+
 .fa-brands {
  padding-right: 8px;
  font-size: 16px;
@@ -184,6 +182,7 @@ p {
  padding-left: 24px;
  font-family: roboto, sans-serif;
  font-style: normal;
+ text-decoration: none;
  font-weight: 400;
  font-size: 16px;
  line-height: 0px;
@@ -191,11 +190,14 @@ p {
  padding-left: 16px;
  cursor: pointer;
 }
+.link:hover {
+   color: #114A9E;
+   text-decoration: underline;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 881px) {
  .grid {
   display: block;
-  ;
  }
 
 img {
@@ -224,15 +226,27 @@ img {
    font-weight: 900;
    font-size: 50px;
    line-height: 58px;
+   color: #031636;
   }
 
   h2 {
  margin: auto;
  font-family: roboto, sans-serif;
  font-style: normal;
- font-weight: 400;
- font-size: 32px;
- line-height: 38px;
+ font-weight: 800;
+ font-size: 24px;
+ line-height: 28px;
+ color: #031636;
+}
+
+h3 {
+margin: auto;
+font-family: roboto, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #031636;
 }
 
 .About {

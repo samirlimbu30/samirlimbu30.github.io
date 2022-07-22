@@ -176,6 +176,7 @@ p {
 
 .btn:hover {
  background-color: #114A9E;
+ text-decoration: underline;
 }
 
 .link {

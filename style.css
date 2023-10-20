@@ -14,7 +14,6 @@ padding: 0%;
 
 .col1 {
   padding-left: 32px;
-
   padding-right: 32px;
 }
 
@@ -27,8 +26,8 @@ padding: 0%;
 
 .About {
  grid-column: span 2;
- margin-top: 48px;
- margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
  margin-left: 32px;
  margin-right: 32px;
 
@@ -36,47 +35,47 @@ padding: 0%;
 
 .Process {
  grid-column: span 2;
- margin-top: 24px;
- margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
  margin-left: 32px;
  margin-right: 32px;
 }
 
 .Work1 {
  grid-column: span 2;
- margin-top: 24px;
- margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
  margin-left: 32px;
  margin-right: 32px;
 }
 
 .Work2 {
  grid-column: span 2;
- margin-top: 24px;
- margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
  margin-left: 32px;
  margin-right: 32px;
 }
 
 .Work3 {
  grid-column: span 2;
- margin-top: 24px;
- margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
  margin-left: 32px;
  margin-right: 32px;
 }
 
 .Work4 {
  grid-column: span 2;
- margin-top: 24px;
- margin-bottom: 24px;
+ padding-top: 24px;
+ padding-bottom: 24px;
  margin-left: 32px;
  margin-right: 32px;
 }
 
 .last {
  grid-column: span 2;
- margin-top: 24px;
+ padding-top: 24px;
  margin-bottom: 48px;
  margin-left: 32px;
  margin-right: 32px;
@@ -224,7 +223,6 @@ p {
 .col1 {
    background-color: #ECF4F8;
    margin-top: 32px;
-   display: flex;
 }
 
 .col2 {

@@ -227,8 +227,6 @@ p {
       flex-direction: column;
       justify-content: center;
       width: 100%;
-      overflow-x: hidden;
-      width: 100vw;
    }
 }
 

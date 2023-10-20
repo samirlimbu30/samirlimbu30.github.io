@@ -1,6 +1,16 @@
-body {
+/*body {
   margin: auto;
   max-width: 842px;
+  width: 100%;
+margin: 0 auto;
+}*/
+
+body {
+   margin: auto;
+   max-width: 842px;
+   width: 100%;
+   overflow-x: hidden;
+   width: 100vw;
 }
 
 .grid {
@@ -36,7 +46,7 @@ padding: 0%;
 .Process {
  grid-column: span 2;
  padding-top: 24px;
- padding-bottom: 24px;
+ padding-bottom: 8px;
  margin-left: 32px;
  margin-right: 32px;
 }
@@ -216,6 +226,9 @@ p {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 100%;
+      overflow-x: hidden;
+      width: 100vw;
    }
 }
 
@@ -280,6 +293,7 @@ color: #031636;
 .btn {
  padding-top:8px;
 }
+
 
 
 

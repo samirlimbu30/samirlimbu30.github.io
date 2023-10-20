@@ -227,7 +227,6 @@ p {
 .col2 {
    padding-top: 24px;
    padding-left: 32px;
-   padding-bottom: 12px;
    min-width: 280px;
    align-items: left;
 }
@@ -263,7 +262,7 @@ color: #031636;
 }
 
 .About {
- margin-top: 32px;
+ margin-top: 0px;
 }
 
 .btn {

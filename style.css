@@ -166,7 +166,7 @@ p {
  color: white;
 }
 
-.fa-square-arrow-up-right {
+.fa-arrow-up-right-from-square {
    padding-left: 8px;
 }
 
@@ -195,20 +195,20 @@ p {
  cursor: pointer;
 }
 
+.link:hover {
+   color: #114A9E;
+   text-decoration: underline;
+}
+
 .inLine {
    color: #2B65BC;
-   cursor: pointer;
    text-decoration: none;
 }
 
 .inLine:hover {
    color: #114A9E;
    text-decoration: underline;
-}
-
-.link:hover {
-   color: #114A9E;
-   text-decoration: underline;
+   cursor: pointer;
 }
 
 @media screen and (max-width: 841px) {

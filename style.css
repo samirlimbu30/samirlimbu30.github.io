@@ -217,31 +217,12 @@ p {
 }
 
 .link {
-   padding-left: 24px;
-   font-family: roboto, sans-serif;
-   font-style: normal;
-   text-decoration: none;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 0px;
    color: #2B65BC;
-   padding-left: 16px;
-   cursor: pointer;
+   text-decoration: underline;
 }
 
 .link:hover {
    color: #114A9E;
-   text-decoration: underline;
-}
-
-.inLine {
-   color: #2B65BC;
-   text-decoration: none;
-}
-
-.inLine:hover {
-   color: #114A9E;
-   text-decoration: underline;
    cursor: pointer;
 }
 

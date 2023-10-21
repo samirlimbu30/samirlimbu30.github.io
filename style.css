@@ -50,16 +50,16 @@ body {
 
 .Process {
    grid-column: span 2;
-   padding-top: 24px;
-   padding-bottom: 8px;
+   padding-top: 48px;
+   padding-bottom: 24px;
    margin-left: 32px;
    margin-right: 32px;
 }
 
 .Work1 {
    grid-column: span 2;
-   padding-top: 24px;
-   padding-bottom: 24px;
+   padding-top: 48px;
+   padding-bottom: 16px;
    margin-left: 32px;
    margin-right: 32px;
 }
@@ -67,7 +67,7 @@ body {
 .Work2 {
    grid-column: span 2;
    padding-top: 24px;
-   padding-bottom: 24px;
+   padding-bottom: 16px;
    margin-left: 32px;
    margin-right: 32px;
 }
@@ -75,7 +75,7 @@ body {
 .Work3 {
    grid-column: span 2;
    padding-top: 24px;
-   padding-bottom: 24px;
+   padding-bottom: 16px;
    margin-left: 32px;
    margin-right: 32px;
 }
@@ -90,7 +90,7 @@ body {
 
 .last {
    grid-column: span 2;
-   padding-top: 24px;
+   padding-top: 48px;
    margin-bottom: 48px;
    margin-left: 32px;
    margin-right: 32px;

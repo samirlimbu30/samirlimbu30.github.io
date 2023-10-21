@@ -90,8 +90,8 @@ body {
 
 .last {
    grid-column: span 2;
-   padding-top: 48px;
-   margin-bottom: 64px;
+   padding-top: 32px;
+   padding-bottom: 64px;
    margin-left: 32px;
    margin-right: 32px;
    color: #031636;
